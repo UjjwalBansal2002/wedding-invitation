@@ -1,0 +1,188 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FFF4E5; /* Warm Cream */
+  --foreground: #2A1810;
+
+  /* Traditional Indian Wedding Color Palette */
+  --color-rani-pink: #D81B60;
+  --color-sindoor-red: #B71C1C;
+  --color-marigold: #F9A825;
+  --color-haldi-yellow: #FDD835;
+  --color-coral-pink: #F08080;
+  --color-orange: #E87524;
+  --color-peacock-blue: #176B87;
+  --color-emerald-green: #26734D;
+  --color-purple: #7B3F98;
+  --color-rose-pink: #F4B6C2;
+  --color-warm-cream: #FFF4E5;
+  --color-floral-green: #6B8E23;
+
+  /* Backward Compatibility & Secondary Accents */
+  --color-floral-red: #B71C1C;
+  --color-peacock-teal: #176B87;
+  --color-royal-purple: #7B3F98;
+  --color-leaf-green: #6B8E23;
+  --color-warm-ivory: #FFF4E5;
+  --color-soft-peach: #FCE6D6;
+  --color-pale-mint: #E8F3EA;
+  --color-gold-accent: #E5A93C;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), 'Segoe UI', system-ui, sans-serif;
+  font-weight: 400;
+  background-color: #FFF4E5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-playfair), 'Cinzel', 'Playfair Display', 'Cormorant Garamond', 'Georgia', serif;
+  letter-spacing: 0.02em;
+}
+
+h1 {
+  font-size: clamp(2.2rem, 8vw, 4.5rem);
+  line-height: 1.15;
+}
+
+h2 {
+  font-size: clamp(1.75rem, 5vw, 3.25rem);
+  line-height: 1.25;
+}
+
+h3 {
+  font-size: clamp(1.3rem, 4vw, 2.2rem);
+  line-height: 1.35;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF4E5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #D81B60, #F9A825);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B71C1C;
+}
+
+/* Selection colors */
+::selection {
+  background-color: #D81B60;
+  color: #FFF4E5;
+}
+
+/* Indian Wedding Typography & Utility Classes */
+.text-elegant {
+  font-family: var(--font-playfair), 'Cinzel', 'Playfair Display', 'Cormorant Garamond', 'Georgia', serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.text-romantic {
+  font-family: var(--font-playfair), 'Cormorant Garamond', 'Georgia', serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.text-auspicious {
+  font-family: var(--font-playfair), 'Cinzel', serif;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+/* Indian Festive Gradients */
+.gradient-wedding {
+  background: linear-gradient(135deg, #D81B60, #B71C1C);
+}
+
+.gradient-marigold {
+  background: linear-gradient(135deg, #F9A825, #E87524);
+}
+
+.gradient-peacock {
+  background: linear-gradient(135deg, #176B87, #26734D);
+}
+
+.gradient-royal {
+  background: linear-gradient(135deg, #7B3F98, #D81B60);
+}
+
+.gradient-soft {
+  background: linear-gradient(135deg, #FFF4E5, #FCE6D6);
+}
+
+/* Traditional Card Effects */
+.indian-card-shadow {
+  box-shadow: 0 10px 30px -5px rgba(216, 27, 96, 0.08), 0 4px 12px -2px rgba(249, 168, 37, 0.12);
+}
+
+.gold-border {
+  border: 1px solid rgba(229, 169, 60, 0.4);
+}
+
+.gold-glow {
+  box-shadow: 0 0 15px rgba(249, 168, 37, 0.25);
+}
+
+/* Keyframe Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(2deg);
+  }
+}
+
+@keyframes pulse-subtle {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(1.03);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-float-slow {
+  animation: float-slow 4s ease-in-out infinite;
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 3s ease-in-out infinite;
+}
