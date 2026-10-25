@@ -9,7 +9,6 @@ import { Countdown } from '@/components/sections/Countdown';
 import { WeddingEvents } from '@/components/sections/WeddingEvents';
 import { DestinationExperience } from '@/components/sections/DestinationExperience';
 import { PhotoGallery } from '@/components/sections/PhotoGallery';
-import { RSVP } from '@/components/sections/RSVP';
 import { ClosingSection } from '@/components/sections/ClosingSection';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -18,7 +17,6 @@ export default function Home() {
   const [showScrollToTop, setShowScrollToTop] = useState(false);
 
   const mainInvitationRef = useRef<HTMLDivElement>(null);
-  const rsVPRef = useRef<HTMLDivElement>(null);
   const topRef = useRef<HTMLDivElement>(null);
 
   // Handle scroll to top button visibility
@@ -75,11 +73,6 @@ export default function Home() {
           {/* Photo Gallery */}
           <PhotoGallery images={weddingData.gallery} />
 
-          {/* RSVP */}
-          <div ref={rsVPRef}>
-            <RSVP events={weddingData.events} />
-          </div>
-
           {/* Closing Section */}
           <ClosingSection
             brideName={weddingData.brideName}
@@ -87,7 +80,6 @@ export default function Home() {
             weddingDate={weddingData.weddingDate}
             destination={weddingData.destination}
             closingMessage={weddingData.closingMessage}
-            onScrollToRSVP={() => scrollToSection(rsVPRef)}
             onScrollToTop={() => scrollToSection(topRef)}
           />
         </>

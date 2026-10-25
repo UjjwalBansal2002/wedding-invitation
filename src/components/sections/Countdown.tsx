@@ -98,7 +98,7 @@ export function Countdown({ weddingDate }: CountdownProps) {
               transition={{ delay: 0.5 }}
               className="text-center mt-10 text-base sm:text-lg text-[#6B8E23] italic font-serif"
             >
-              Counting down every golden moment until we welcome you to The Mountain Front Resort & Spa
+              Counting down every golden moment until we welcome you to The Mountain Front Resort
             </motion.p>
           </>
         )}

@@ -115,7 +115,7 @@ export function OpeningInvitation({ brideName, groomName, onOpen }: OpeningInvit
 
                 {/* Destination & Date preview */}
                 <div className="mt-4 pt-3 border-t border-[#E5A93C]/30 text-xs font-serif text-[#2A1810]/75">
-                  <p className="font-semibold text-[#176B87]">The Mountain Front Resort & Spa</p>
+                  <p className="font-semibold text-[#176B87]">The Mountain Front Resort</p>
                   <p className="mt-0.5 text-gray-500">November 25 – 26, 2026</p>
                 </div>
 
@@ -145,7 +145,7 @@ export function OpeningInvitation({ brideName, groomName, onOpen }: OpeningInvit
             </motion.div>
 
             <p className="mt-4 text-center text-xs text-[#FFF4E5]/80 font-serif italic tracking-wide">
-              Click to unfold the celebrations at The Mountain Front Resort & Spa
+              Click to unfold the celebrations at The Mountain Front Resort
             </p>
           </motion.div>
         ) : (

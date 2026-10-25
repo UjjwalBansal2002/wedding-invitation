@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Kajal & Ashish | Wedding Celebration",
-  description: "Join us for the wedding celebrations of Kajal Bansal & Ashish Varshney at The Mountain Front Resort & Spa",
+  description: "Join us for the wedding celebrations of Kajal Bansal & Ashish Varshney at The Mountain Front Resort",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

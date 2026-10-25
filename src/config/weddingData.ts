@@ -5,9 +5,9 @@ export const weddingData = {
 
   // Wedding Details
   weddingDate: '2026-11-26',
-  destination: 'The Mountain Front Resort & Spa',
-  venue: 'The Mountain Front Resort & Spa',
-  venueAddress: 'The Mountain Front Resort & Spa',
+  destination: 'The Mountain Front Resort',
+  venue: 'The Mountain Front Resort',
+  venueAddress: 'The Mountain Front Resort',
   venuePhone: '+91 8445973574',
   mapsUrl: 'https://maps.app.goo.gl/4adDLMfRR6QQwZe5A',
 
@@ -22,7 +22,7 @@ export const weddingData = {
       name: 'Haldi Ceremony',
       date: 'November 25, 2026',
       time: '1:00 PM onwards (Noon)',
-      venue: 'The Mountain Front Resort & Spa',
+      venue: 'The Mountain Front Resort',
       dressCode: 'Sunny Yellow & Traditional Festive Wear',
       description: 'A joyful afternoon ceremony filled with fragrant turmeric, golden marigold petals, music, and blessings.',
       image: '/images/event-haldi.jpg',
@@ -33,7 +33,7 @@ export const weddingData = {
       name: 'DJ & Sangeet Night',
       date: 'November 25, 2026',
       time: '6:00 PM onwards',
-      venue: 'The Mountain Front Resort & Spa',
+      venue: 'The Mountain Front Resort',
       dressCode: 'Glamorous Evening Festive Attire',
       description: 'An electrifying musical night filled with rhythmic dhol beats, vibrant dance performances, DJ, and celebratory dinner under the stars.',
       image: '/images/event-sangeet.jpg',
@@ -44,7 +44,7 @@ export const weddingData = {
       name: 'Sagai Rasm (Ring Ceremony)',
       date: 'November 26, 2026',
       time: '11:00 AM (Morning)',
-      venue: 'The Mountain Front Resort & Spa',
+      venue: 'The Mountain Front Resort',
       dressCode: 'Elegant Traditional & Indo-Western Attire',
       description: 'The auspicious ring ceremony exchanging traditional vows, blessings, and joyful moments between our families.',
       image: '/images/event-mehendi.jpg',
@@ -55,7 +55,7 @@ export const weddingData = {
       name: 'Wedding Ceremony (Shubh Vivah)',
       date: 'November 26, 2026',
       time: '6:00 PM onwards (Night)',
-      venue: 'The Mountain Front Resort & Spa',
+      venue: 'The Mountain Front Resort',
       dressCode: 'Regal Traditional Indian Wedding Attire',
       description: 'The sacred Seven Vows (Saat Phere) around the holy fire, uniting two souls with family blessings and eternal love.',
       image: '/images/event-wedding.jpg',
@@ -80,7 +80,7 @@ export const weddingData = {
     },
     hotels: [
       {
-        name: 'The Mountain Front Resort & Spa',
+        name: 'The Mountain Front Resort',
         rating: '5-Star Luxury Resort',
         description: 'Exquisite luxury resort nestled amidst serene mountain ranges with panoramic views.',
         type: 'Primary Wedding Sanctuary',
@@ -88,55 +88,19 @@ export const weddingData = {
     ],
   },
 
-  // Gallery Images - Realistic Professional Wedding Photography
+  // Gallery Images - Couple Moments
   gallery: [
     {
       id: 1,
-      title: 'The Sacred Wedding Mandap',
-      category: 'wedding',
-      image: '/images/hero-mandap.jpg',
-    },
-    {
-      id: 2,
-      title: 'Luxury Stationery & Marigolds',
-      category: 'decor',
-      image: '/images/invitation-stationery.jpg',
-    },
-    {
-      id: 3,
-      title: 'Sagai & Celebration Setting',
-      category: 'sagai',
-      image: '/images/event-mehendi.jpg',
-    },
-    {
-      id: 4,
-      title: 'Haldi Marigold Blooms',
-      category: 'haldi',
-      image: '/images/event-haldi.jpg',
-    },
-    {
-      id: 5,
-      title: 'The Mountain Front Resort & Spa',
-      category: 'venue',
-      image: '/images/destination-palace.jpg',
-    },
-    {
-      id: 6,
       title: 'Kajal & Ashish',
       category: 'couple',
       image: '/images/couple-moment.jpg',
     },
     {
-      id: 7,
-      title: 'DJ & Sangeet Night',
-      category: 'sangeet',
-      image: '/images/event-sangeet.jpg',
-    },
-    {
-      id: 8,
-      title: 'Candlelit Celebration Banquet',
-      category: 'reception',
-      image: '/images/event-reception.jpg',
+      id: 2,
+      title: 'Cherished Moments',
+      category: 'couple',
+      image: '/images/jaimala.jpg',
     },
   ],
 

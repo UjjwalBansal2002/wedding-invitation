@@ -34,7 +34,7 @@ export function MainInvitation({
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero-mandap.jpg"
-          alt="Opulent Wedding Mandap at The Mountain Front Resort & Spa"
+          alt="Opulent Wedding Mandap at The Mountain Front Resort"
           fill
           priority
           unoptimized

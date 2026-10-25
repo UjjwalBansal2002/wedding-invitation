@@ -170,7 +170,7 @@ export function PhotoGallery({ images }: PhotoGalleryProps) {
                     </h3>
                   </div>
                   <p className="text-xs text-[#FFF4E5]/70 font-serif italic">
-                    The Mountain Front Resort & Spa
+                    The Mountain Front Resort
                   </p>
                 </div>
               </motion.div>

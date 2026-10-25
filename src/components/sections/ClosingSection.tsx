@@ -37,7 +37,7 @@ export function ClosingSection({
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero-mandap.jpg"
-          alt="Sunset Wedding at The Mountain Front Resort & Spa"
+          alt="Sunset Wedding at The Mountain Front Resort"
           fill
           unoptimized
           className="object-cover object-center filter brightness-60 scale-105"
